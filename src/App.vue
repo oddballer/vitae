@@ -1,5 +1,4 @@
 <template>
-  <div id="blur"></div>
   <div id="shadow">
     <div v-if="this.store.$state.isLoading" id="loadCover"></div>
     <div v-if="this.store.$state.isLoading" id="loadWindow" class="loading"></div>
@@ -25,11 +24,6 @@ data() {
 }
 </script>
 <style scoped>
-#blur{
-background-image: linear-gradient(to bottom right, rgb(254, 198, 109), rgb(173, 82, 169));
-height: 100vh;
-z-index: 1;
-}
 #shadow {
 position: fixed;
 left: calc(30% + 16px);

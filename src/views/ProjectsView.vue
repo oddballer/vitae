@@ -1,5 +1,6 @@
 <template lang="">
-    <div>
+    <div id="projects">
+        <p class="heading">Projects</p>
         <img @click="()=> {store.load(); $router.go(-1)}" class="icon" src="/back.svg"/>
     </div>
 </template>
@@ -14,5 +15,11 @@ export default {
 }
 </script>
 <style scoped>
+#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
     
 </style>

@@ -1,6 +1,6 @@
 :root {
   color: rgb(255, 255, 255);
-  background-color: rgb(85, 185, 185);
+  background-image: linear-gradient(to bottom right, rgb(254, 198, 109), rgb(173, 82, 169));
   font-synthesis: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
